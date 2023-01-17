@@ -1,0 +1,79 @@
+.Tasks_card{
+    margin-top: -15px;
+    margin-left: 100px;
+
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 80px;
+    .card{
+        position: relative;
+        width: 382px;
+        height: 105px;
+        background-color: #6d0ca2;
+        opacity: 0.8;
+        overflow: hidden;
+        margin-top: 50px;
+        .block{
+            position: absolute;
+            width: 54px;
+            height: 54px;
+            background: #B131DD;
+            border-radius: 50%;
+            top: -15px;
+            left: -15px;
+            opacity: 1;
+            .number_card{
+                font-weight: 700;
+                font-size: 21px;
+                opacity: 1;
+                color: #Ffffff;
+                text-align: center;
+                margin-left: 10px;
+            }
+        }
+        .text_card{
+            font-weight: 600;
+            font-size: 21px;
+
+            align-items: center;
+            text-align: center;
+            margin-top: 30px;
+            color: #FFFFFF
+        }
+    }
+    .card-4{
+        .text_card{
+            margin-top: 10px;
+        }
+    }
+    .card-6{
+        .text_card{
+            width: 300px;
+            margin-left: 50px;
+        }
+    }
+    .card-8{
+        .text_card{
+            width: 310px;
+            margin-left: 50px;
+        }
+    }
+    .card-9{
+        .text_card{
+            width: 310px;
+            margin-left: 50px;
+            margin-top: 20px;
+        }
+    }
+    .card-10{
+        width: 644px;
+        height: 105px;
+        filter: drop-shadow(0px 6px 20px rgba(177, 49, 221, 0.15));
+        margin-left: 350px;
+        .text_card{
+            width: 600px;
+            margin-top: 20px;
+            margin-left: 40px;
+        }
+    }
+}

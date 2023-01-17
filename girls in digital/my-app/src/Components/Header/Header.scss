@@ -1,0 +1,112 @@
+.header{
+    background-image: url('../../img/Header/Header__font.png');
+    height: 615px;
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    .logo-header{
+        margin-top: 40px;
+        display: flex;
+        img{
+            width: 78px;
+            height: 56px;
+        }
+        h2{
+            font-weight: 700;
+            font-size: 30px;
+            margin-top: 20px;
+        }
+    }
+    .nav{
+        margin-top: 40px;
+        margin-left: 370px;
+        .nav__List{
+            list-style-type: none;
+            display: flex;
+            column-gap: 30px;
+            .List-item{
+                .active{
+                    color: #FFFFFF;
+                    opacity: 1;
+
+                }
+                a{
+                    color: #FFFFFF;
+                    opacity: 0.8;
+                    font-weight: 300;
+                    text-decoration: none;
+
+                }
+                a:hover{
+                    color: #FFFFFF;
+                    opacity: 2;
+                }
+            }
+        }
+    }
+    .regs-lung{
+        margin-top: 50px;
+        select{
+            margin-right: 20px;
+            background: none;
+            border: none;
+            outline: none;
+            color: white;
+            font-weight: 300;
+            font-size: 18px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            background: #B131DD;
+            border-radius: 2px;
+            padding: 8px 14px;
+        }
+    }
+}
+.More{
+    margin-top: 40px;
+    display: flex;
+    height: 730px;
+    position: relative;
+    .more__text{
+        position: absolute;
+        width: 740px;
+        height: 730px;
+        background: #B031DD;
+        border-radius: 10px;
+        color: white;
+        h2{
+            text-align: center;
+            margin-top: 200px;
+            font-weight: 600;
+            font-size: 78px;
+        }
+        p{
+            margin-left: 70px;
+            width: 649px;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 31px;                
+        }
+        button{
+            font-weight: 300;
+            font-size: 16px;
+            color: white;
+            background: none;
+            border: 2px solid white;
+            outline: none;
+            margin-left: 70px;
+            padding: 10px 20px;
+        }
+    }
+    .more__img{
+        margin-left: 600px;
+        img{
+            width: 100%;
+            height: 730px;
+        }
+    }
+}

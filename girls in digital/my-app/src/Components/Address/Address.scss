@@ -1,0 +1,57 @@
+.address{
+    margin-top: 100px;
+    margin-bottom: 120px;
+    .address__inner{
+        .mazil{
+            width: 600px;
+            height: 437px;
+            background-repeat: repeat;
+            background-size:cover;
+            background-position: center center;
+            background-image: url('../../img/Address/Group\ 189\ \(1\).png');
+            margin-left: 250px;
+            color: #FFFFFF;
+            padding: 70px 0px 80px 90px;
+            .sayt{
+                display: flex;
+                column-gap: 30px;
+                
+                img{
+                    width: 45px;
+                    height: 45px;
+                    margin-top: 40px;
+                }
+                .text-1{
+                    font-weight: 600;
+                    font-size: 26px;
+                }
+                .text-2{
+                    font-weight: 300;
+                    font-size: 22px;
+                    margin-top: -15px;
+                }
+                .text-3{
+                    margin-top: -15px;
+
+                    font-weight: 300;
+                    font-size: 22px;
+                    width: 270px;
+                    height: 50px;
+                }
+                .img2{
+                    width: 33px;
+                    height: 46px;
+                }
+                .img3{
+                    width: 45px;
+                    height: 36px;
+                }
+                .img4{
+                    width: 45px;
+                    height: 57px;
+                }
+            }
+        }
+    }
+
+}
